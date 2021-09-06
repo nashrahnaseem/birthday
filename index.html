@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: peachpuff;
+        }
+        .container{
+
+            
+            height: 200px ;
+            width: 200px;
+            position: relative;
+            left: 500px;top: 100px;
+            text-align: center;
+            animation: nash 5s infinite ease;
+        }
+    #scale{
+            transform: scale(3);
+        }
+        @keyframes nash {
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(2);
+            }
+        }
+        .nash{
+            float: left;
+            margin: 15px;
+        }
+        .container2{
+            height: 200px;
+            width: 200px;
+        border-radius: 50%;
+            border: 2px solid black;
+            overflow: hidden;
+
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+       <h2 class="nash">&#129395</h2> <h1 id="scale"class="nash">&#129395</h1><h2 class="nash">&#129395</h2>
+       
+    </div>
+    <marquee behavior="" direction="right"><div class="container2">
+     <img src="dany2.jpeg" alt="">
+    </div></marquee>
+    <marquee behavior="" direction="left"><div class="container2">
+         <img src="dany1.jpeg" alt="">
+    </div></marquee>
+   
+</body>
+</html>
